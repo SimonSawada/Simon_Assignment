@@ -1,0 +1,71 @@
+body {
+  font-family: sans-serif;
+  padding: 1em;
+}
+.InstantSearch {
+  max-width: 960px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.display_image img {
+  width: 100px;
+  height: 100px;
+  margin-left: 1px;
+}
+.hit_name {
+  font-family: sans-serif;
+}
+
+.right-panel {
+  margin-left: 260px;
+}
+
+.hit-right {
+  margin-left: 120px;
+}
+
+.left-panel {
+  float: left;
+  width: 260px;
+}
+
+.hit-left {
+  float: left;
+  width: 50px;
+}
+h1 {
+  font-size: 1.2em;
+}
+
+#searchbox {
+}
+
+#hits {
+  margin-top: 1em;
+}
+
+#variety-list {
+}
+
+#tags-list {
+}
+
+#maps {
+  height: 500px;
+  margin-top: 1em;
+}
+
+#price-range {
+}
+
+.ais-Hits-item {
+  width: 47%;
+}
+
+p {
+  display: block;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  margin-left: 0;
+  margin-right: 0;
+}

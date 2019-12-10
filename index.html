@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/algolia-min.css"
+    />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <div class="InstantSearch">
+      <div class="left-panel">
+        <h1>Cépage</h1>
+        <div id="variety-list"></div>
+        <h1>Pays</h1>
+        <div id="country-list"></div>
+        <h1>Tags</h1>
+        <div id="tags-list"></div>
+        <h1>Price</h1>
+        <div id="price_range"></div>
+      </div>
+      <div class="right-panel">
+        <div id="searchbox"></div>
+        <div id="hits"></div>
+        <div id="maps"></div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/algoliasearch@3.35.1/dist/algoliasearchLite.min.js"
+      integrity="sha256-5rOQwvvJdM9oDYQYCGzaJuuTy6SUALjma3OtzEGyJM0="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.0.0/dist/instantsearch.production.min.js"
+      integrity="sha256-6S7q0JJs/Kx4kb/fv0oMjS855QTz5Rc2hh9AkIUjUsk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="src/index.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=quarterly&key=AIzaSyBawL8VbstJDdU5397SUX7pEt9DslAwWgQ"></script>
+  </body>
+</html>
